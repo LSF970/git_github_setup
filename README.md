@@ -153,4 +153,25 @@ print(greeting.endswith("!")) # checks if the variable ends with !
 print(greeting.isdigit())
 ```
 
+### String methods in action
+
+```python
+# String Methods that are available
+
+# # use case: var = string "asadfnodsjfnosanf                       " - lots of spaces, not needed
+white_space = "lots of spaces at the end                           "
+print(len(white_space))
+# # strip() - removes white spaces
+print(len(white_space.strip())) # Value returned is 25 because white space AT THE END is removed
+
+example_text = "here's sOme text with lOts of text"
+print(example_text)
+print(example_text.count("text"))
+print(example_text.lower())
+print(example_text.upper())
+print(example_text.capitalize())
+print(example_text.replace("with", ","))
+
+```
+
 

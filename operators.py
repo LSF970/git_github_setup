@@ -47,16 +47,34 @@
 # Hello World!
 # 0-H 1-e 2-l 3-l 4-o 5- 6-W 7-o 8-r 9-l 10-d 11-!
 
-greeting = "Hello World!"
-print(greeting)
-# We have a built-in method that checks the length of a string
-print(len(greeting))
-print(greeting[1])
-print(greeting[0:5])
-print(greeting[6:12])
-# Reverse (using - indexing
-print(greeting[:5])
-print(greeting[-6:])
+# greeting = "Hello World!"
+# print(greeting)
+# # We have a built-in method that checks the length of a string
+# print(len(greeting))
+# print(greeting[1])
+# print(greeting[0:5])
+# print(greeting[6:12])
+# # Reverse (using - indexing
+# print(greeting[:5])
+# print(greeting[-6:])
+
+# String Methods that are available
+
+# # use case: var = string "asadfnodsjfnosanf                       " - lots of spaces, not needed
+white_space = "lots of spaces at the end                           "
+print(len(white_space))
+# # strip() - removes white spaces
+print(len(white_space.strip())) # Value returned is 25 because white space AT THE END is removed
+
+example_text = "here's sOme text with lOts of text"
+print(example_text)
+print(example_text.count("text"))
+print(example_text.lower())
+print(example_text.upper())
+print(example_text.capitalize())
+print(example_text.replace("with", ","))
+
+
 
 
 
