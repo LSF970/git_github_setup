@@ -60,19 +60,36 @@
 
 # String Methods that are available
 
-# # use case: var = string "asadfnodsjfnosanf                       " - lots of spaces, not needed
-white_space = "lots of spaces at the end                           "
-print(len(white_space))
-# # strip() - removes white spaces
-print(len(white_space.strip())) # Value returned is 25 because white space AT THE END is removed
+# # # use case: var = string "asadfnodsjfnosanf                       " - lots of spaces, not needed
+# white_space = "lots of spaces at the end                           "
+# print(len(white_space))
+# # # strip() - removes white spaces
+# print(len(white_space.strip())) # Value returned is 25 because white space AT THE END is removed
+#
+# example_text = "here's sOme text with lOts of text"
+# print(example_text)
+# print(example_text.count("text"))
+# print(example_text.lower())
+# print(example_text.upper())
+# print(example_text.capitalize())
+# print(example_text.replace("with", ","))
 
-example_text = "here's sOme text with lOts of text"
-print(example_text)
-print(example_text.count("text"))
-print(example_text.lower())
-print(example_text.upper())
-print(example_text.capitalize())
-print(example_text.replace("with", ","))
+# user data input
+first_name = "Luke"
+last_name = "Fairbrass"
+salary = 40
+
+print(first_name)
+print(last_name)
+print(first_name + last_name)
+# Need to add a space
+print(first_name + " " + last_name)
+# How to concatenate two data types
+print(first_name + " " + last_name + " " + str(salary)) # cast int as string using str()
+# or use f-string (later versions of python only)
+print(f"Hello {first_name} {last_name}, £{salary} per hour")
+
+
 
 
 

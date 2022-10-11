@@ -174,4 +174,8 @@ print(example_text.replace("with", ","))
 
 ```
 
+### Concatenation and casting
+- adding strings together
+- casting/converting data types
+
 
