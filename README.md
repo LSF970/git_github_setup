@@ -140,4 +140,17 @@ See 'git help git' for an overview of the system.
 - `>=` greater than or equal to
 - `<=` less than or equal to
 
+### Boolean methods
+```python
+# # Booleans and Boolean methods
+# DRY - Don't Repeat Yourself - e.g. print("")
+greeting = "Hello World!"
+print(greeting)
+print(greeting.isalpha())
+print(greeting.islower())
+print(greeting.startswith("H"))
+print(greeting.endswith("!")) # checks if the variable ends with !
+print(greeting.isdigit())
+```
+
 
