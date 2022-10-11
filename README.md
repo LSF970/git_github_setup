@@ -69,3 +69,13 @@ print("Course: " + course)
 print("UK Resident: " + uk_resident)
 
 ```
+
+## Adding to a file
+- add changes to our GitHub repo - the changes that we made on localhost
+
+- `git add filename` or `git add .` . means push everything to the repo
+- `git commit -m "New markdown guide added"`
+- Now send this new data to GitHub
+- `git push -u origin main`
+- `git status` Tells us what will be changed, added, taken out etc.
+- 
