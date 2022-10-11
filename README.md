@@ -130,3 +130,14 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 
 ```
+### Intro to Data types & Operators
+- ` +  -  *  /`
+
+###### Comparison operators
+- `>` greater than
+- `<` less than
+- `==` true or false
+- `>=` greater than or equal to
+- `<=` less than or equal to
+
+
