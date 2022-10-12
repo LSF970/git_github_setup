@@ -8,7 +8,7 @@ student_1 = {
     "key": "values",
     "name": "Luke",
     "stream": "DevOps",
-    "completed_lessons": 4,
+    "completed_lessons": 5,
     "completed_topics_name": ["Data_types", "Lists", "Tuples", "String_methods", "Bool_methods"]
 }
 
@@ -19,14 +19,25 @@ print(student_1["completed_topics_name"][0]) # Displays a particular index from 
 student_1["completed_topics_name"].remove("Data_types") # Removes from a list in a dictionary
 print(student_1["completed_topics_name"]) # Showcases removed data, Lists is now first index
 
-## Dictionary methods
+print(student_1["completed_lessons"])
+student_1["completed_lessons"] = 4 # Change a value in a dictionary
+print(student_1["completed_lessons"])
+
+print(student_1["completed_topics_name"][0]) # Print first index in list within dictionary
+
+student_1["completed_topics_name"].remove("Bool_methods") # Remove a value from a key
+print(student_1["completed_topics_name"])
+
+# Dictionary methods
+
+## keys -> returns just the keys in the dictionary
 print(student_1.keys())
 print(type(student_1.keys()))
 
 ## get -> works the same way as using the square brackets to access a key
 print(student_1.get("name"))
 
-## values method does the same as the keys method but for the values
+## values -> does the same as the keys method but for the values
 print(student_1.values())
 
 ## items -> returns an array of tuples
